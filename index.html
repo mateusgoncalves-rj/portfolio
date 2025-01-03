@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Mateus Gonçalves</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #f4f4f9;
+            --text-color: #333;
+            --highlight-color: #ff7675;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 10px 0 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--highlight-color);
+            padding-left: 15px;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .project img {
+            max-width: 120px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .project h3 {
+            font-size: 1.8rem;
+            margin: 0 0 10px;
+            color: var(--highlight-color);
+        }
+        .project p {
+            margin: 0;
+            color: #555;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            color: #fff;
+            background-color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .project a:hover {
+            background-color: var(--highlight-color);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--primary-color);
+            color: #fff;
+            margin-top: 40px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .project {
+                flex-direction: column;
+                text-align: center;
+            }
+            .project img {
+                margin: 0 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mateus Gonçalves</h1>
+        <p>Desenvolvedor Web</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Mateus Gonçalves e sou um desenvolvedor web especializado em criar ótimas experiências digitais utilizando HTML, CSS e JS. Aqui estão alguns dos meus projetos recentes.</p>
+        </section>
+        <section>
+            <h2>Projetos</h2>
+            <div class="project">
+                <img src="ebook-org.ico" alt="Logo do EBOOK.ORG">
+                <div>
+                    <h3>EBOOK.ORG</h3>
+                    <p>Uma biblioteca online que oferece acesso gratuito a eBooks de domínio público. Com foco em democratizar o conhecimento, este projeto é intuitivo e acessível para todos.</p>
+                    <a href="https://github.com/ebook-org/home" target="_blank">Visitar Projeto</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="rss-render.ico" alt="Logo do RSS Render">
+                <div>
+                    <h3>RSS Render</h3>
+                    <p>Uma ferramenta prática para carregar e visualizar feeds RSS. Permite uma navegação rápida e organizada em diversas fontes de notícias.</p>
+                    <a href="https://github.com/mateusgoncalves-rj/rss-render" target="_blank">Visitar Projeto</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Mateus Gonçalves. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
