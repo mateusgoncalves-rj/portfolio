@@ -15,4 +15,4 @@ Este site apresenta uma visão geral do meu trabalho como desenvolvedor web. Ele
 
 ## 🚀 Como acessar
 
-Acesse o portfólio online por meio do seguinte link: [Portfólio - Mateus Gonçalves](https://mateusgoncalves-rj.github.io/portifolio/).
+Acesse o portfólio online por meio do seguinte link: [Portfólio - Mateus Gonçalves](https://mateusgoncalves-rj.github.io/portfolio/).
